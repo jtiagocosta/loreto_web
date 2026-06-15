@@ -1,0 +1,188 @@
+:root {
+    --primary: #0f4c81;
+    --dark: #082b4a;
+    --gold: #c9a227;
+    --terracotta: #b86b4b;
+    --light: #f8f9fa;
+    --primary-blue: #0f2042;
+    --gold-accent: #d4af37;
+    --text-dark: #1a202c;
+    --text-muted: #4a5568;
+    --bg-light: #f8fafc;
+}
+
+.panfleto-card {
+    max-width: 450px;
+    margin: 15px auto;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(15, 32, 66, 0.15);
+    border: 1px solid rgba(15, 32, 66, 0.1);
+    overflow: hidden;
+}
+
+/* HERO HEADER - Imagem da Santa */
+.panfleto-hero {
+    position: relative;
+    height: 160px;
+    background: linear-gradient(to bottom, rgba(15, 32, 66, 0.2), rgba(15, 32, 66, 0.85)),
+        url('https://instagram.fbss2-1.fna.fbcdn.net/v/t51.82787-15/709226347_17888936391551999_2680981380160913125_n.webp?_nc_cat=106&ig_cache_key=MzkwODA5ODU2NTYwODI0MTgwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=CZBWubyBni0Q7kNvwE06E1i&_nc_oc=AdogbcGaNmNgtboG_Hg-knLNnQuzaN2Sx5Xbhf-aDvx0Fw7E3Mvs5Pt44nx3hpmVClDjggyHrJ-r-PT-yQDp1ojK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbss2-1.fna&_nc_gid=uoH3UGgFdf0aZJmUn_Al6g&_nc_ss=7a22e&oh=00_Af-h5FzcYGsQXxmGYNIO4NiTwCodc9piSQ2URjlqQ4leNw&oe=6A28EE29') no-repeat center 46%;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid var(--gold-accent);
+}
+
+.panfleto-hero h4 {
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    margin-bottom: 2px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.panfleto-hero p {
+    color: var(--gold-accent);
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.schedule-list {
+    padding: 0;
+}
+
+.schedule-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 18px;
+    /* Compactado verticalmente */
+    border-bottom: 1px solid #edf2f7;
+    background-color: #ffffff;
+}
+
+.schedule-item:last-child {
+    border-bottom: none;
+}
+
+.schedule-item.alt-bg {
+    background-color: var(--bg-light);
+}
+
+.schedule-day {
+    min-width: 70px;
+}
+
+.day-tag {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-blue);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.75rem;
+    padding: 4px 6px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.schedule-item.is-sunday .day-tag {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+}
+
+.schedule-details {
+    padding-left: 15px;
+    flex-grow: 1;
+}
+
+.time-text {
+    color: var(--primary-blue);
+    font-weight: 800;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 1px;
+}
+
+.time-text i {
+    color: var(--gold-accent);
+}
+
+.title-text {
+    color: var(--text-dark);
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 1px;
+    line-height: 1.2;
+}
+
+.local-text {
+    color: var(--text-muted);
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.panfleto-footer {
+    background-color: var(--bg-light);
+    padding: 12px;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+}
+
+.panfleto-footer h6 {
+    color: var(--primary-blue);
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.schedule-day {
+    min-width: 80px;
+}
+
+.day-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-blue);
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 4px 6px;
+    line-height: 1.2;
+}
+
+.day-name {
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.day-date {
+    font-weight: 800;
+    font-size: 0.75rem;
+    color: var(--gold-accent);
+}
+
+.schedule-item.is-sunday .day-tag {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+}
+
+.schedule-item.is-sunday .day-date {
+    color: #ffebeb;
+}

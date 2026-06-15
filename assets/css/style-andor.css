@@ -1,0 +1,42 @@
+:root {
+    --primary: #0f4c81;
+    --dark: #082b4a;
+    --gold: #c9a227;
+    --terracotta: #b86b4b;
+    --light: #f8f9fa;
+    --primary-blue: #0f2042;
+    --gold-accent: #d4af37;
+    --text-dark: #1a202c;
+    --text-muted: #4a5568;
+    --bg-light: #f8fafc;
+}
+
+.hero-section-mural-andor {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+        url('https://instagram.fbss2-1.fna.fbcdn.net/v/t51.82787-15/707510214_18595867567055970_1112098553971930577_n.jpg?stp=dst-jpg_e35_p720x720_tt6&_nc_cat=100&ig_cache_key=MzkwNTgzNDUyNTE2OTgxMzgzMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE3OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=rtBFWaJD0kwQ7kNvwGisfFr&_nc_oc=AdrwcuxxqVvp3grX8McCLwLAkSA4zO5l5RVm9kddpOV5jlQqK0JW83GBi6wg4v_KoCg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbss2-1.fna&_nc_gid=drBPHgx_2B1yOXQkbEILSQ&_nc_ss=7a22e&oh=00_Af9gcTVhXetThs5EuTIgSQqmEjjHnFlRYSfjGQ-eBXYflg&oe=6A2E2A09');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.andor-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.andor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.andor-img {
+    object-fit: cover;
+    height: 350px;
+    width: 100%;
+}

@@ -1,0 +1,265 @@
+:root {
+    /* Nova Paleta: Foco em tons de verde espiritual e acolhedor */
+    --primary-green: #0f4229;
+    --gold-accent: #d4af37;
+    --text-dark: #1a202c;
+    --text-muted: #4a5568;
+    --bg-light: #f4f9f6;
+}
+
+.panfleto-card {
+    max-width: 450px;
+    margin: 15px auto;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(15, 66, 41, 0.15);
+    border: 1px solid rgba(15, 66, 41, 0.1);
+    overflow: hidden;
+}
+
+/* HERO HEADER - Imagem focada em Oração/Comunidade */
+.panfleto-hero {
+    position: relative;
+    height: 160px;
+    /* Usando um degradê verde e mantendo a imagem de fundo com ajuste de zoom e posição */
+    background: linear-gradient(to bottom, rgba(15, 66, 41, 0.3), rgba(15, 66, 41, 0.9)),
+        url('https://instagram.fbss2-1.fna.fbcdn.net/v/t51.82787-15/709226347_17888936391551999_2680981380160913125_n.webp?_nc_cat=106&ig_cache_key=MzkwODA5ODU2NTYwODI0MTgwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=CZBWubyBni0Q7kNvwE06E1i&_nc_oc=AdogbcGaNmNgtboG_Hg-knLNnQuzaN2Sx5Xbhf-aDvx0Fw7E3Mvs5Pt44nx3hpmVClDjggyHrJ-r-PT-yQDp1ojK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbss2-1.fna&_nc_gid=uoH3UGgFdf0aZJmUn_Al6g&_nc_ss=7a22e&oh=00_Af-h5FzcYGsQXxmGYNIO4NiTwCodc9piSQ2URjlqQ4leNw&oe=6A28EE29') no-repeat center 45% #0f4229;
+    background-size: 115%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid var(--gold-accent);
+}
+
+.panfleto-hero h4 {
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    margin-bottom: 2px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.panfleto-hero p {
+    color: var(--gold-accent);
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* INFORMAÇÃO DO MÊS E TEMA DO MÊS */
+.periodo-linha {
+    background-color: var(--bg-light);
+    border-bottom: 1px solid #edf2f7;
+    padding: 6px 16px;
+    text-align: center;
+}
+
+.periodo-texto {
+    color: var(--text-dark);
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.periodo-texto strong {
+    color: var(--primary-green);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.periodo-divisor {
+    color: var(--gold-accent);
+    margin: 0 6px;
+    font-weight: bold;
+}
+
+.periodo-texto em {
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+/* LISTA DE PROGRAMAÇÃO */
+.schedule-list {
+    padding: 0;
+}
+
+.schedule-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 18px;
+    border-bottom: 1px solid #edf2f7;
+    background-color: #ffffff;
+}
+
+.schedule-item:last-child {
+    border-bottom: none;
+}
+
+.schedule-item.alt-bg {
+    background-color: var(--bg-light);
+}
+
+/* BLOCO DO DIA */
+.schedule-day {
+    min-width: 90px;
+}
+
+.day-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-green);
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 4px 6px;
+    line-height: 1.2;
+}
+
+.day-name {
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.day-date {
+    font-weight: 800;
+    font-size: 0.75rem;
+    color: var(--gold-accent);
+}
+
+/* Mudança de Layout: No grupo de oração, o destaque pode ser no Sábado ou dia principal */
+.schedule-item.highlight-day .day-tag {
+    background: linear-gradient(135deg, #10b981, #047857);
+}
+
+.schedule-item.highlight-day .day-date {
+    color: #ffffff;
+}
+
+/* DETALHES */
+.schedule-details {
+    padding-left: 15px;
+    flex-grow: 1;
+}
+
+/* Ícone de oração mudou para mãos postas ou fogo/espírito */
+.time-text {
+    color: var(--primary-green);
+    font-weight: 800;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 1px;
+}
+
+.time-text i {
+    color: var(--gold-accent);
+}
+
+.title-text {
+    color: var(--text-dark);
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 1px;
+    line-height: 1.2;
+}
+
+.local-text {
+    color: var(--text-muted);
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* RODAPÉ DO PANFLETO */
+.panfleto-footer {
+    background-color: var(--bg-light);
+    padding: 12px;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+}
+
+.panfleto-footer h6 {
+    color: var(--primary-green);
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.info-top {
+    max-width: 450px;
+    margin: 0 auto;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+/* OTIMIZAÇÃO MÓVEL PARA PREVENIR CORTES NO PRINT */
+@media (max-width: 480px) {
+    .panfleto-card {
+        margin: 5px auto;
+        border-radius: 16px;
+    }
+
+    .panfleto-hero {
+        height: 120px;
+        padding: 10px;
+    }
+
+    .panfleto-hero h4 {
+        font-size: 1.15rem;
+    }
+
+    .periodo-linha {
+        padding: 4px 10px;
+    }
+
+    .periodo-texto {
+        font-size: 0.72rem;
+    }
+
+    .schedule-item {
+        padding: 7px 12px;
+    }
+
+    .schedule-day {
+        min-width: 78px;
+    }
+
+    .day-name {
+        font-size: 0.72rem;
+    }
+
+    .day-date {
+        font-size: 0.68rem;
+    }
+
+    .time-text {
+        font-size: 0.85rem;
+    }
+
+    .title-text {
+        font-size: 0.88rem;
+    }
+
+    .local-text {
+        font-size: 0.75rem;
+    }
+
+    .panfleto-footer {
+        padding: 10px;
+    }
+}
