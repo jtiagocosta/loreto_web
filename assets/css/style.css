@@ -5,7 +5,7 @@ body {
 
 .hero {
     min-height: 90vh;
-    background: linear-gradient(rgba(8, 43, 74, .72), rgba(8, 43, 74, .72)), url('https://scontent.fbss2-1.fna.fbcdn.net/v/t1.6435-9/107745754_160009749086083_8084273389565498996_n.jpg?stp=dst-jpg_tt6&cstp=mx462x475&ctp=s462x475&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=t-p2szJNOc0Q7kNvwH5tLv0&_nc_oc=AdrKfGZubjxzFnjeAjwttJsTcBv6epdfk8IrQ7Dw6R5AgBCg2pZbXDh8LnOuDYY73SdIAtrDmJurRzmZc6MopRm7&_nc_zt=23&_nc_ht=scontent.fbss2-1.fna&_nc_gid=4gzMRXj_gyKX0xYY8-vuJQ&_nc_ss=7d2a8&oh=00_Af8EwUxwBWQyTK_AbXsVGRpQhiKNYFl40UpCU9_1qvHAbA&oe=6A50FFC4') center/cover;
+    background: linear-gradient(rgba(8, 43, 74, .72), rgba(8, 43, 74, .72)), url('../img/cidade_loreto.png') center/cover;
     color: #fff;
     display: flex;
     align-items: center
