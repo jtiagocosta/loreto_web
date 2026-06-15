@@ -13,7 +13,7 @@
 
 .hero-loreto {
     min-height: 90vh;
-    background: linear-gradient(rgba(8, 43, 74, .72), rgba(8, 43, 74, .72)), url('https://instagram.fbss2-1.fna.fbcdn.net/v/t51.82787-15/707427103_18595867576055970_1079245291265438245_n.jpg?stp=dst-jpg_e35_p720x720_tt6&_nc_cat=102&ig_cache_key=MzkwNTgzNDUyMzc0MzgyODU0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE3OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=iN_KcqntvAoQ7kNvwHb5YsQ&_nc_oc=Adp7NccBQjiMNGzQ4R3No2bSkUkXCezRge1vrip-iRE5jpbsvJ1H8zTdpM2XeO0fFESzpGhjnRNXs-w1ZczxafBp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbss2-1.fna&_nc_gid=VEM5Ro2zF2pT_pA4qJ7Zcw&_nc_ss=7a22e&oh=00_Af-C1UuJFvo82nmGLOJ6JRWka-6ZKiEMuzI6DkRlfDCHvw&oe=6A2F3326') center/cover;
+    background: linear-gradient(rgba(8, 43, 74, .72), rgba(8, 43, 74, .72)), url('../img/cidade_loreto.png') center/cover;
     color: #fff;
     display: flex;
     align-items: center
