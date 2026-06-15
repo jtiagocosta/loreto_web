@@ -76,6 +76,28 @@
 
     <script src='assets/js/main.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Notificação de Dados -->
+    <div id="data-notice"
+        style="display:none; background-color: #f9c2c2; padding: 15px; text-align: center; position: fixed; bottom: 0; left: 0; right: 0;">
+        Este site não coleta dados pessoais automaticamente, mas pode utilizar bibliotecas de terceiros que o fazem. Ao
+        continuar, você concorda com os nossos termos na <a href="#politica-privacidade"
+            class="text-decoration-none">Política de Privacidade</a>.
+        <button id="understand-data" style="margin-left: 10px;">Entendi</button>
+    </div>
+
+    <script>
+        // Exibir a notificação de dados se ainda não foi reconhecida
+        if (!localStorage.getItem('dataAcknowledged')) {
+            document.getElementById('data-notice').style.display = 'block';
+        }
+
+        // Armazenar a aceitação dos termos
+        document.getElementById('understand-data').addEventListener('click', function () {
+            localStorage.setItem('dataAcknowledged', 'true');
+            document.getElementById('data-notice').style.display = 'none';
+        });
+    </script>
 </body>
 
 </html>
