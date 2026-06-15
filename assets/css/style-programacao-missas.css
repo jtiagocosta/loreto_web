@@ -26,7 +26,7 @@
     position: relative;
     height: 160px;
     background: linear-gradient(to bottom, rgba(15, 32, 66, 0.2), rgba(15, 32, 66, 0.85)),
-        url('../img/nsa_loreto.png') no-repeat center 46%;
+        url('../img/nsa_loreto.png') no-repeat center 7%;
     background-size: cover;
     display: flex;
     flex-direction: column;
