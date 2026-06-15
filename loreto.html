@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang='pt-BR'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <title>Loreto Web</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css' rel='stylesheet'>
+    <link href='assets/css/style.css' rel='stylesheet'>
+    <link href='assets/css/style-loreto.css' rel='stylesheet'>
+    <link href='assets/css/style-nav-footer.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id='navbar'></div>
+
+    <div class="hero-loreto">
+        <div class="container">
+            <span class="badge bg-warning text-dark mb-3 px-3 py-2 rounded-pill">Bem-vindo a</span>
+            <h1 class="display-4 fw-bold">Loreto/MA</h1>
+            <p class="lead fs-4">Berço da fé, tradição e belezas naturais no coração do Sul do Maranhão.</p>
+
+            <div class="mt-4">
+                <a href="#fundacao" class="btn btn-light btn-lg rounded-pill px-4 me-2">Explorar história <i
+                        class="bi bi-arrow-down-short"></i></a>
+                <a href="#curiosidades" class="btn btn-outline-light btn-lg rounded-pill px-4">Curiosidades</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row g-4 mb-5 text-center justify-content-center">
+            <div class="col-md-3 col-6">
+                <div class="stat-card">
+                    <i class="bi bi-people fs-1 text-primary"></i>
+                    <div class="stat-number mt-2">11.884</div>
+                    <div class="mt-2 small text-muted">
+                        População estimada em 2025
+                    </div>
+                    <div class="mt-1">
+                        <div class="mt-2 small text-muted">
+                            <i class="bi bi-link-45deg"></i> Fonte: <a
+                                href="https://cidades.ibge.gov.br/brasil/ma/loreto/panorama" target="_blank"
+                                rel="noopener noreferrer" class="text-decoration-none">IBGE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6">
+                <div class="stat-card">
+                    <i class="bi bi-building fs-1 text-primary"></i>
+                    <div class="stat-number mt-2" id="contadorAnos">Calculando...</div>
+                    <div class="mt-2 small text-muted">
+                        Elevação à Cidade em <br> 29 de março de 1938
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="fundacao" class="mb-5 pt-3">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <span class="badge bg-primary mb-2">Raízes</span>
+                    <h2 class="display-6 fw-semibold"> <i class="bi bi-house-heart fs-2 text-primary me-2"></i> Fundação
+                        de
+                        Loreto</h2>
+                    <p class="lead">Nascida sob a proteção de Maria, Loreto surgiu de uma capela em honra à Mãe
+                        Santíssima e tornou‑se marco no sul do Maranhão.</p>
+                    <p>
+                        Originalmente parte da antiga província do sul do Maranhão (sediada em Pastos Bons), a região já
+                        era uma pedra angular por volta de <strong>1780</strong>.
+                        O distrito foi criado em <strong>1851</strong> e elevado à categoria de <strong>vila em
+                            1873</strong>.
+                        Finalmente, em <strong>29 de março de 1938</strong>, pelo decreto‑lei nº 45, Loreto foi
+                        <strong>elevada à cidade</strong>, desmembrando‑se de Pastos Bons.
+                    </p>
+                    <p>
+                        Seu território original abrangia os vales do Tocantins, Parnaíba, Balsas, Neves e Itapecuru.
+                        Ao longo do tempo, os distritos de <strong>Sambaíba</strong> (1953) e <strong>São Félix de
+                            Balsas</strong> (1959) se emanciparam.
+                        Hoje, Loreto mantém viva sua herança religiosa e sertaneja, com o gentílico
+                        <strong>lorentense</strong>.
+                    </p>
+                    <a href="https://loreto.ma.gov.br/cidades/cidades/"
+                        class="btn btn-outline-primary rounded-pill mt-2" target="_blank"> Fonte </a>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img src="https://scontent.fbss2-1.fna.fbcdn.net/v/t39.30808-6/469047529_17890877139130871_8598747677633914982_n.jpg?stp=dst-jpg_tt6&cstp=mx720x720&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wYugp4fnmhEQ7kNvwGu3S6n&_nc_oc=Adri27h_7-4QRC707LHYTddYk840G7uD15PGDrKnQy5FSZsvo7ytlj06M4GKrIkwNrwbepPyqztCS2qDge32yXz-&_nc_zt=23&_nc_ht=scontent.fbss2-1.fna&_nc_gid=q8pNgDqOUQT-BcW0OZOcaA&_nc_ss=7d2a8&oh=00_Af9pnEwWAAYgapAcYXqsXK960f1npR0zJv7rTRBghqLA9w&oe=6A2F4436"
+                        alt="Praça da Matriz" class="img-fluid rounded-4 shadow-lg">
+                </div>
+            </div>
+        </section>
+
+        <section id="evolucao" class="mb-5 pt-4 bg-light p-4 rounded-4">
+            <div class="text-center mb-4">
+                <h2 class="display-6 fw-semibold"> <i class="bi bi-graph-up-arrow fs-2 text-primary me-2"></i> Evolução
+                    da Cidade</h2>
+                <p class="lead">Do arraial do século XVIII à cidade que preserva sua alma</p>
+            </div>
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="timeline-modern">
+                        <div class="timeline-item">
+                            <div class="year">~1780 – 1850</div>
+                            <h5>As primeiras raízes</h5>
+                            <p>Registros apontam Loreto como uma “pedra angular” na região ainda no século XVIII. Uma
+                                capela em honra a Nossa Senhora de Loreto deu origem ao povoado.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="year">1851 – 1873</div>
+                            <h5>Distrito e depois vila</h5>
+                            <p>Em 1851 Loreto torna‑se distrito de Pastos Bons. Em 24 de julho de 1873 é elevado à
+                                categoria de <strong>vila</strong>.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="year">1933 – 1937</div>
+                            <h5>Organização administrativa</h5>
+                            <p>O município era formado por três distritos: <strong>Loreto, Canto e São Félix de
+                                    Balsas</strong>. O distrito de São Raimundo do Rio das Neves <strong>não
+                                    figurava</strong> na divisão. Assim permanecendo em divisão territorial datada de
+                                31-XII-1936 e 31-XII-1937.
+                            </p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="year">1938 – 1950</div>
+                            <h5>Emancipação e cidade</h5>
+                            <p>Em <strong>29 de março de 1938</strong>, Loreto é elevada à condição de
+                                <strong>cidade</strong> (decreto‑lei nº 45), desmembrando‑se de Pastos Bons. O município
+                                passa a ter os distritos de Loreto, São Félix de Balsas e São Raimundo das Mangabeiras.
+                            </p>
+                            <div class="d-flex mt-3">
+                                <div class="me-3 text-muted" style="font-family: monospace;">└─</div>
+                                <div>
+                                    <i class="bi bi-x-circle text-danger me-1"></i>
+                                    <strong>1943:</strong> Extinção do distrito de São Raimundo das Mangabeiras anexado
+                                    a Riachão
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <div class="me-3 text-muted" style="font-family: monospace;">└─</div>
+                                <div>
+                                    <i class="bi bi-plus-circle text-success me-1"></i>
+                                    <strong>1948:</strong> Criação do distrito de Sambaíba anexado a Loreto (lei nº
+                                    272).
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <div class="me-3 text-muted" style="font-family: monospace;">└─</div>
+                                <div>
+                                    <i class="bi bi-check-circle text-info me-1"></i>
+                                    <strong>1950:</strong> Divisão territorial: o município passa a ser constituído por
+                                    3 distritos: <strong>Loreto, Sambaíba e São Félix de Balsas</strong>.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="year">1953 – 1959</div>
+                            <h5>Perda de territórios</h5>
+                            <p>Sambaíba e São Félix de Balsas se emancipam.</p>
+
+                            <div class="d-flex mt-3">
+                                <div class="me-3 text-muted" style="font-family: monospace;">└─</div>
+                                <div> <strong>1953</strong>
+                                    (Lei estadual nº 1013): Sambaíba emancipa‑se.</div>
+                            </div>
+                            <div class="d-flex mt-1">
+                                <div class="me-3 text-muted" style="font-family: monospace;">└─</div>
+                                <div> <strong>1955</strong>: Loreto fica
+                                    com 2 distritos (Loreto e São Félix).</div>
+                            </div>
+                            <div class="d-flex mt-1">
+                                <div class="me-3 text-muted" style="font-family: monospace;">└─</div>
+                                <div> <strong>1959</strong>
+                                    (Lei estadual nº 1852): São Félix de Balsas emancipa‑se.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="year">1960</div>
+                            <h5>Consolidação territorial</h5>
+                            <p>Em divisão territorial datada de <strong>1-VII-1960</strong>, o município de
+                                Loreto passa a ser constituído <strong>apenas pelo distrito sede</strong>.</p>
+                            <div class="d-flex mt-2">
+                                <div class="me-3 text-muted" style="font-family: monospace;">└─</div>
+                                <div>
+                                    A configuração territorial de Loreto permaneceu assim conforme registros do IBGE até
+                                    pelo menos 2005.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="year">2026 – Hoje</div>
+                            <h5>Memória, fé e tecnologia</h5>
+                            <p>Projetos como o
+                                <a href="#"><strong>Loreto Web</strong></a>
+                                e
+                                <a href="https://www.instagram.com/acervo_loreto/"><strong>Acervo Loreto</strong></a>
+                                mantêm viva
+                                a herança cultural e religiosa do
+                                município.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="curiosidades" class="mb-5 pt-4">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-semibold"><i class="bi bi-search fs-2 text-primary me-2"></i> Curiosidades de
+                    Loreto</h2>
+                <p>Fatos que poucos conhecem e encantam quem visita</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="curiosity-card p-4 h-100 d-flex flex-column">
+                        <div class="d-flex">
+                            <i class="bi bi-quote fs-1 text-warning me-3"></i>
+                            <div>
+                                <h5>Padroeira da Aviação</h5>
+                                <p>Nossa Senhora de Loreto é a padroeira universal da Aviação, título concedido pelo
+                                    Papa Bento XV em 24 de março de 1920.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2 small text-muted">
+                            <i class="bi bi-link-45deg"></i> Fonte: <a
+                                href="https://www.a12.com/redacaoa12/igreja/conheca-nossa-senhora-de-loreto-padroeira-da-aviacao"
+                                target="_blank" rel="noopener noreferrer" class="text-decoration-none">A12 - Padroeira
+                                da Aviação</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curiosidade 2: Licor de Jenipapo e Doce de Buriti -->
+                <div class="col-md-6">
+                    <div class="curiosity-card p-4 h-100 d-flex flex-column">
+                        <div class="d-flex">
+                            <i class="bi bi-cake2 fs-1 text-warning me-3"></i>
+                            <div>
+                                <h5>Licor de Jenipapo e Doce de Buriti</h5>
+                                <p>A culinária típica de Loreto preserva receitas tradicionais há gerações, com destaque
+                                    para o licor de jenipapo e o doce de buriti. Produzidos artesanalmente por famílias
+                                    locais, representam a identidade cultural lorentense.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2 small text-muted">
+                            <i class="bi bi-info-circle"></i> Fonte: Tradição oral e relatos culturais da região.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card de Curiosidade 2: Rodovia Transamazônica -->
+                <div class="col-md-6">
+                    <div class="curiosity-card p-4 h-100 d-flex flex-column">
+                        <div class="d-flex">
+                            <i class="bi bi-signpost-2 fs-1 text-warning me-3"></i>
+                            <div>
+                                <h5>Cortada pela Transamazônica</h5>
+                                <p>A famosa Rodovia Transamazônica (BR-230) passa pelo município de Loreto, sendo uma
+                                    importante via de ligação para a região. O km 287 da rodovia está localizado em
+                                    território lorentense, e o acesso principal à cidade é feito pela estrada estadual
+                                    MA-373, que conecta Loreto à BR-230.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2 small text-muted">
+                            <i class="bi bi-link-45deg"></i> Fonte:
+                            <a href="https://pt.wikipedia.org/wiki/Rodovia_Transamaz%C3%B4nica" target="_blank"
+                                rel="noopener noreferrer" class="text-decoration-none">Wikipédia - Rodovia
+                                Transamazônica</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card de Curiosidade 1: Santuário de Nossa Senhora do Coco da Aparecida -->
+                <div class="col-md-6">
+                    <div class="curiosity-card p-4 h-100 d-flex flex-column">
+                        <div class="d-flex">
+                            <i class="bi bi-buildings fs-1 text-warning me-3"></i>
+                            <div>
+                                <h5>Santuário de Nossa Senhora do Coco da Aparecida</h5>
+                                <p>A cerca de 68 km da sede do município de Loreto, está localizado o Santuário de Nossa
+                                    Senhora do Coco da Aparecida. O local abriga uma capela construída sobre uma grande
+                                    formação rochosa e é um dos destinos de fé mais procurados do sul do Maranhão. O
+                                    local
+                                    é muito frequentado o ano inteiro, mas é durante o festejo, que acontece de 6 a 15
+                                    de agosto, que a peregrinação fica ainda mais intensa.</p>
+                            </div>
+                        </div>
+                        <div class="mt-2 small text-muted">
+                            <i class="bi bi-link-45deg"></i> Fontes:
+                            <a href="https://g1.globo.com/ma/maranhao/noticia/2014/08/capela-construida-em-rocha-atrai-milhares-de-devotos-loreto-ma.html"
+                                target="_blank" rel="noopener noreferrer" class="text-decoration-none">G1 - Capela
+                                construída em rocha atrai milhares de devotos a Loreto, MA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aviso de fontes e responsabilidade -->
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-10">
+                    <div class="small text-muted pt-3 border-top">
+                        <i class="bi bi-shield-check text-primary me-1"></i>
+                        <strong>Transparência e compromisso com a verdade:</strong>
+                        <ul class="mt-2 mb-0">
+                            <li><i class="bi bi-link-45deg text-primary"></i> Os links externos abrem em nova aba
+                                e são incluídos apenas para referência.</li>
+                            <li><i class="bi bi-eye text-primary"></i> O site não se responsabiliza pelo conteúdo
+                                de sites de terceiros, mas se compromete a verificar periodicamente a integridade e a
+                                pertinência das fontes.</li>
+                            <li><i class="bi bi-arrow-repeat text-primary"></i> Caso alguma informação ou link esteja
+                                desatualizado, entre em contato para que possamos corrigir.</li>
+                        </ul>
+                        <p class="mt-2 mb-0" style="font-size: 0.7rem;">
+                            <i class="bi bi-info-circle"></i> As informações baseadas em tradição oral estão devidamente
+                            identificadas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chamada final para engajamento -->
+        <div class="bg-primary text-white p-5 rounded-4 text-center mt-3">
+            <h3 class="fw-bold">Venha conhecer Loreto de perto</h3>
+            <p class="lead mb-3">Preserve a memória, viva a fé e encante-se com o acolhimento loretense.</p>
+        </div>
+    </div>
+
+    <div id='footer'></div>
+    <script src='assets/js/main.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function calcularAnos() {
+            const dataEvento = new Date(1938, 2, 29); // Março = mês 2 (0-index)
+            const hoje = new Date();
+            let anos = hoje.getFullYear() - dataEvento.getFullYear();
+            const mesHoje = hoje.getMonth();
+            const diaHoje = hoje.getDate();
+            if (mesHoje < 2 || (mesHoje === 2 && diaHoje < 29)) {
+                anos--;
+            }
+            document.getElementById('contadorAnos').innerHTML = `${anos} anos `;
+        }
+        calcularAnos();
+    </script>
+</body>
+
+</html>
